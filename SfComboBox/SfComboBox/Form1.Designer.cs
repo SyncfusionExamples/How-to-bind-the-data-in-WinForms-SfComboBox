@@ -41,8 +41,6 @@ namespace SfComboBox
             this.sfComboBox1.Size = new System.Drawing.Size(196, 36);
             this.sfComboBox1.TabIndex = 0;
             this.sfComboBox1.AllowSelectAll = true;
-            this.sfComboBox1.DataSource = this.GetData();
-            this.sfComboBox1.DisplayMember = "StudentName";
             this.sfComboBox1.ComboBoxMode = Syncfusion.WinForms.ListView.Enums.ComboBoxMode.MultiSelection;
             this.sfComboBox1.DataSource = this.GetData();
             this.sfComboBox1.DisplayMember = "LongName";
