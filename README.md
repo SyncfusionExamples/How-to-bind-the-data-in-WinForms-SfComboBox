@@ -1,2 +1,4 @@
 # How-to-bind-the-data-in-WinForms-SfComboBox
-This session describes how to bind the data in WinForms SfComboBox.
+This session explains how to bind data to the SfComboBox control in a Windows Forms (WinForms) application using Syncfusion's UI components. The SfComboBox is a powerful dropdown control that supports data binding, auto-complete, and customization features, making it ideal for modern desktop applications.
+To bind data, you typically start by preparing a data source, which can be a list, a dictionary, or a data table. Then, you assign this data source to the DataSource property of the SfComboBox. You can also specify which property of the data source should be displayed using the DisplayMember property and which value should be used internally using the ValueMember property.
+This approach allows developers to create dynamic and responsive UI elements that reflect changes in the underlying data. The example provided in the GitHub repository demonstrates how to implement this in a real-world scenario, including setting up the form, initializing the combo box, and binding it to a sample data collection.
